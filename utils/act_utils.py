@@ -25,7 +25,7 @@ def count_files_in_folder(folder_path):
 
 def save_activations(activations):
     with open(
-        "/nfs-data/user30/Projects/adapter-gpt2/data/paraDetox/att/gpt2-large/analysis/activations.pkl",
+        "./att/gpt2-large/analysis/activations.pkl",
         "wb",
     ) as f:
         pickle.dump(activations, f)
